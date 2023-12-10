@@ -1,0 +1,176 @@
+body {
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* TYPOGRAPHY */
+
+.titles {
+    background:#1F2937;
+    color:#F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin:0;
+    
+}
+
+.sign-up {
+    margin-bottom: 4em;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 0.5em 1.5em;
+    border-radius: 4px;
+    border:none;
+}
+
+.hero {
+    width :400px;
+    
+}
+
+.hero-body {
+    font-size:24px;
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+
+.fancy-shoe {
+object-fit: fill;
+width: 500px;
+height: 200px;    
+}
+
+.header {
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.logo {
+    width:50px;
+    background-color:#F9FAF8;
+    border-radius: 50%;
+    margin-bottom: 4em;
+}
+ul {
+    list-style: none;
+    display:flex;
+    gap:1em;
+}
+
+a {
+    text-decoration:none;
+    color:#E5E7EB;
+    font-size:18px;
+}
+
+.about-website {
+    display:flex;
+    justify-content: center;
+    gap:6em;
+}
+
+.product-container {
+    display:flex;
+    justify-content: center;
+    gap:4em;
+}
+
+.product {
+    width:200px;
+    height: 200px;
+    object-fit: fill;
+    border:1px solid #3882F6;
+    border-radius: 6%;
+}
+
+.product-card {
+    width:200px;
+}
+
+.content {
+    display:flex;
+    flex-direction: column;
+    gap:2em;
+}
+
+.subtitle {
+    align-self: center;
+    margin-top:2em
+}
+
+.product-info {
+    margin:0.5em 0em;
+    margin-bottom:3em;
+}
+
+.subsection {
+    background: rgb(211, 209, 209);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:100px;
+}
+
+.quote {
+    width:60%;
+}
+
+.author {
+    align-self:flex-end;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 15em;
+}
+
+
+.info-card {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:3em;
+}
+
+.info {
+    color:#F9FAF8;
+    background:#3882F6;
+    padding: 2em 5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    gap:2em;
+    border-radius: 6px;
+  
+}
+
+.info-title {
+    margin:0;
+    align-self: flex-start;
+
+}
+
+.info-body {
+    margin:0;
+}
+
+.info-btn {
+    border:1px solid #F9FAF8
+}
+
+.info-btn-container {
+    align-self: flex-end;
+    height:30px;
+}
+.footer {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding:2em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
